@@ -1,0 +1,156 @@
+/* static/styles.css */
+body {
+    background-color:darkgray ; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* static/styles.css */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4e8d0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #f15016;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #000;
+}
+/* styles.css */
+/* static/styles.css */
+
+/* Header Styles */
+.header {
+    background-color: #333; /* Dark background color for the header */
+    color: white; /* Text color for the header */
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #808080; /* Gray color for the navbar */
+    padding: 10px 20px; /* Add padding to the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0; /* Remove default margin */
+    color: white; /* Text color for "EMA" */
+}
+
+.navbar .add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px; /* Adjust padding of the button */
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navbar .add-button:hover {
+    background-color: #45a049;
+}
+
+/* Sub-header Styles */
+.header-sub {
+    background-color: #f2f2f2; /* Light background color for the sub-header */
+    padding: 20px;
+}
+
+.header-sub h2 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Employee List Styles */
+.employee-list {
+    margin-top: 20px; /* Add margin to separate the content from the header and navbar */
+}
+
+.employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-list th, .employee-list td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.employee-list th {
+    background-color: #f2f2f2;
+}
+
+.employee-list tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.employee-list tr:hover {
+    background-color: #ddd; /* Hover color */
+}
+
+/* static/styles.css */
+
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 20px; /* Add padding to the footer */
+    text-align: center; /* Center-align text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
